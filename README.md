@@ -178,9 +178,9 @@ This project can be deployed to:
 
 ## 🔗 Links
 
-- **Task 1 Original**: [Link to original Bootstrap project]
-- **Live Demo**: [Link to deployed site]
-- **GitHub Repository**: [Link to repository]
+- **Task 1 Original**: [https://github.com/Abhivamsh/bootstrap-task](https://github.com/Abhivamsh/bootstrap-task)
+- **Live Demo**: [https://abhivamsh.github.io/bootstrap-task-2/](https://abhivamsh.github.io/bootstrap-task-2/)
+- **GitHub Repository**: [https://github.com/Abhivamsh/bootstrap-task-2](https://github.com/Abhivamsh/bootstrap-task-2)
 
 ## 👨‍💻 Developer
 
