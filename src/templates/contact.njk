@@ -1,0 +1,252 @@
+{% extends "layout.njk" %}
+
+{% block title %}{{ title }} - Contact{% endblock %}
+
+{% block content %}
+    <!-- Page Header -->
+    <section class="bg-primary text-white py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="display-4 fw-bold mb-3">Contact Abhivamsh</h1>
+                    <p class="lead">Let's create something amazing together</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-body p-5">
+                            <h3 class="fw-bold mb-4 text-center">Send Us a Message</h3>
+                            <form id="contactForm" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="firstName" class="form-label">First Name *</label>
+                                        <input type="text" class="form-control" id="firstName" required>
+                                        <div class="invalid-feedback">
+                                            Please provide your first name.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">Last Name *</label>
+                                        <input type="text" class="form-control" id="lastName" required>
+                                        <div class="invalid-feedback">
+                                            Please provide your last name.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid email address.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject *</label>
+                                    <select class="form-select" id="subject" required>
+                                        <option value="">Choose a subject...</option>
+                                        <option value="web-development">Web Development</option>
+                                        <option value="ui-ux-design">UI/UX Design</option>
+                                        <option value="consultation">Consultation</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a subject.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                                    <div class="invalid-feedback">
+                                        Please provide a message.
+                                    </div>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="newsletter">
+                                    <label class="form-check-label" for="newsletter">
+                                        Subscribe to newsletter for web development tips
+                                    </label>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="bi bi-send me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold">Get In Touch</h2>
+                    <p class="lead text-muted">Multiple ways to connect with Abhivamsh</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Contact Method 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="bg-primary bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="bi bi-envelope fs-4"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Email</h5>
+                            <p class="card-text text-muted">Drop me a line anytime</p>
+                            <a href="mailto:hello@pixelwave.dev" class="btn btn-outline-primary">hello@pixelwave.dev</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Method 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="bg-success bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="bi bi-phone fs-4"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Phone</h5>
+                            <p class="card-text text-muted">Call for urgent projects</p>
+                            <a href="tel:+918877665544" class="btn btn-outline-success">+91 88776 65544</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Method 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="bg-info bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="bi bi-geo-alt fs-4"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Location</h5>
+                            <p class="card-text text-muted">Based in Mumbai, India</p>
+                            <span class="text-muted">Serving clients worldwide</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-6 fw-bold text-center mb-5">Frequently Asked Questions</h2>
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item border-0 mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    What is your typical project timeline?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Project timelines vary based on complexity. A simple landing page takes 1-2 weeks, 
+                                    while more complex applications can take 4-8 weeks. I provide detailed timelines 
+                                    during our initial consultation.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Do you provide ongoing maintenance?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! I offer ongoing maintenance packages to keep your website updated, secure, 
+                                    and running smoothly. This includes regular updates, security monitoring, and 
+                                    technical support.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    What information do you need to start a project?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    To get started, I'll need to understand your goals, target audience, preferred design style, 
+                                    any specific features you need, and your timeline. We'll discuss all details during our 
+                                    initial consultation call.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Form validation
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+        var forms = document.getElementsByClassName('needs-validation');
+        var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        });
+    }, false);
+})();
+
+// Contact form submission
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    if (this.checkValidity()) {
+        // Simulate form submission
+        const button = this.querySelector('button[type="submit"]');
+        const originalText = button.innerHTML;
+        
+        button.innerHTML = '<i class="bi bi-hourglass-split me-2"></i>Sending...';
+        button.disabled = true;
+        
+        setTimeout(() => {
+            button.innerHTML = '<i class="bi bi-check-circle me-2"></i>Message Sent!';
+            button.classList.remove('btn-primary');
+            button.classList.add('btn-success');
+            
+            setTimeout(() => {
+                this.reset();
+                this.classList.remove('was-validated');
+                button.innerHTML = originalText;
+                button.classList.remove('btn-success');
+                button.classList.add('btn-primary');
+                button.disabled = false;
+            }, 2000);
+        }, 1500);
+    }
+    
+    this.classList.add('was-validated');
+});
+</script>
+{% endblock %}

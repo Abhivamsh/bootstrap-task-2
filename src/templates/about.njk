@@ -1,0 +1,210 @@
+{% extends "layout.njk" %}
+
+{% block title %}{{ title }} - About{% endblock %}
+
+{% block content %}
+    <!-- Page Header -->
+    <section class="bg-primary text-white py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="display-4 fw-bold mb-3">About Abhivamsh</h1>
+                    <p class="lead">Innovative digital agency creating waves in web development and design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <h2 class="display-6 fw-bold mb-4">Welcome to Abhivamsh</h2>
+                    <p class="text-muted mb-4">
+                        We're a dynamic digital agency based in Mumbai, India, specializing in creating modern, 
+                        responsive web experiences that make waves in the digital world. Our journey began with 
+                        a vision to transform how businesses connect with their audiences online, and has evolved 
+                        into a passion for innovative design, clean code, and user-centered solutions.
+                    </p>
+                    <p class="text-muted mb-4">
+                        We specialize in full-stack development using cutting-edge technologies like HTML5, CSS3, 
+                        JavaScript, and modern frameworks. We believe in creating digital experiences that are not 
+                        only visually stunning but also performant, accessible, and scalable.
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="text-center mb-3">
+                                <h4 class="fw-bold text-primary">50+</h4>
+                                <small class="text-muted">Projects Delivered</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="text-center mb-3">
+                                <h4 class="fw-bold text-primary">5+</h4>
+                                <small class="text-muted">Years in Business</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="bg-light rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 300px; height: 300px;">
+                        <i class="bi bi-person-circle display-1 text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold">Services We Offer</h2>
+                    <p class="lead text-muted">Comprehensive digital solutions that make waves</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="bg-primary bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px;">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Web Development</h5>
+                            <p class="card-text text-muted">Custom web applications built with modern frameworks and best practices for optimal performance.</p>
+                            <ul class="list-unstyled small text-muted">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>HTML5 & CSS3</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Bootstrap Framework</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>JavaScript ES6+</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="bg-success bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px;">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Responsive Design</h5>
+                            <p class="card-text text-muted">Mobile-first approach ensuring your website looks perfect on all devices and screen sizes.</p>
+                            <ul class="list-unstyled small text-muted">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Mobile Optimization</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Cross-browser Support</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Performance Testing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="bg-info bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px;">
+                                <i class="bi bi-palette"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">UI/UX Design</h5>
+                            <p class="card-text text-muted">User-centered design focusing on intuitive interfaces and exceptional user experiences.</p>
+                            <ul class="list-unstyled small text-muted">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>User Research</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Wireframing</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Prototyping</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold">Technical Skills</h2>
+                    <p class="lead text-muted">Technologies I work with</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h5 class="fw-bold mb-3">Frontend</h5>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>HTML5 & CSS3</span>
+                            <span class="text-muted">95%</span>
+                        </div>
+                        <div class="progress" style="height: 6px;">
+                            <div class="progress-bar bg-primary" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>Bootstrap</span>
+                            <span class="text-muted">90%</span>
+                        </div>
+                        <div class="progress" style="height: 6px;">
+                            <div class="progress-bar bg-success" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>JavaScript</span>
+                            <span class="text-muted">85%</span>
+                        </div>
+                        <div class="progress" style="height: 6px;">
+                            <div class="progress-bar bg-info" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <h5 class="fw-bold mb-3">Tools & Others</h5>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>Git & GitHub</span>
+                            <span class="text-muted">88%</span>
+                        </div>
+                        <div class="progress" style="height: 6px;">
+                            <div class="progress-bar bg-warning" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>Responsive Design</span>
+                            <span class="text-muted">92%</span>
+                        </div>
+                        <div class="progress" style="height: 6px;">
+                            <div class="progress-bar bg-danger" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>UI/UX Principles</span>
+                            <span class="text-muted">80%</span>
+                        </div>
+                        <div class="progress" style="height: 6px;">
+                            <div class="progress-bar bg-secondary" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h3 class="display-6 fw-bold mb-4">Let's Work Together</h3>
+                    <p class="lead mb-4">Have a project in mind? I'd love to hear about it and discuss how we can bring your ideas to life.</p>
+                    <a href="/contact.html" class="btn btn-light btn-lg">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

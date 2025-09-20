@@ -1,0 +1,19 @@
+{
+  "name": "pixelwave-portfolio-task2",
+  "version": "1.0.0",
+  "description": "PixelWave portfolio recreated with Nunjucks + Vite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run build:templates && vite --host",
+    "build": "npm run build:templates && vite build",
+    "build:templates": "node build-templates.js",
+    "preview": "vite preview --host"
+  },
+  "keywords": ["bootstrap", "nunjucks", "vite", "portfolio"],
+  "author": "PixelWave",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "nunjucks": "^3.2.4"
+  }
+}
