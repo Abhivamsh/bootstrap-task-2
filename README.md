@@ -179,8 +179,10 @@ This project can be deployed to:
 ## 🔗 Links
 
 - **Task 1 Original**: [https://github.com/Abhivamsh/bootstrap-task](https://github.com/Abhivamsh/bootstrap-task)
-- **Live Demo**: [https://abhivamsh.github.io/bootstrap-task-2/](https://abhivamsh.github.io/bootstrap-task-2/)
+- **Live Demo**: [https://abhivamsh.github.io/bootstrap-task-2/](https://abhivamsh.github.io/bootstrap-task-2/) 🚀
 - **GitHub Repository**: [https://github.com/Abhivamsh/bootstrap-task-2](https://github.com/Abhivamsh/bootstrap-task-2)
+
+> 🌊 **Abhivamsh Portfolio** - Built with Nunjucks templating and Vite bundler
 
 ## 👨‍💻 Developer
 
